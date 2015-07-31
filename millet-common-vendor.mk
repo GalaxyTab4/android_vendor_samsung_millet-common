@@ -19,6 +19,6 @@ PRODUCT_PACKAGES += \
     libHevcSwDecoder \
     TimeService
 
-$(call inherit-product, vendor/samsung/matisse-common/matisse-common-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/millet-common/millet-common-vendor-blobs.mk)
 
 
