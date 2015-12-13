@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter milletwifi,$(TARGET_DEVICE)),)
+ifneq ($(filter millet3g,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.location
